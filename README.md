@@ -11,8 +11,8 @@ This part shows the REST API endpoints that are included in this Golang backend 
 |`GET`| /events | Get a list of available events | 
 |`GET`| /events/{id} |Get an available list by ID  |
 |`POST`| /events | Create a new event | `Auth Required` 
-|`PUT`| /events/{id} |Update an event | `Auth Required` `By Admin only`
-|`DELETE`| /events/{id} |Delete an event|`Auth Required` `By Admin only`
+|`PUT`| /events/{id} |Update an event | `Auth Required` `Admin access only`
+|`DELETE`| /events/{id} |Delete an event|`Auth Required` `Admin access only`
 |`POST`| /signup |Create a new user|
 |`POST`| /login  |Authenticate user| `Initiates Auth Token`
 |`POST`| /events/{id}/register |Register user for event| `Auth Required`
