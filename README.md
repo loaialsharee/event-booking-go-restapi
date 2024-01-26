@@ -6,7 +6,7 @@ An event booking REST API project powered by Golang.
 ## API Routes
 This part shows the REST API endpoints that are included in this Golang backend server:
 
-|Method                |Route      |Description                          |Auth                         |
+|Method                |Route      |Description                          |Restrictions                         |
 |--------|----------------|---------------|-----------------------------|
 |`GET`| /events | Get a list of available events | 
 |`GET`| /events/{id} |Get an available list by ID  |
